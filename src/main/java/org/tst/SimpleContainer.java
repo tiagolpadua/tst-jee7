@@ -1,5 +1,8 @@
 package org.tst;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class SimpleContainer {
 	
 	private String data;

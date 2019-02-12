@@ -1,13 +1,10 @@
 package org.tst;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlAccessorType(XmlAccessType.PROPERTY)
+@XmlRootElement
 public class ParametrizedContainer<T> {
 
-	@XmlElement
 	private T data;
 
 	public T getData() {
